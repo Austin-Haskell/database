@@ -22,7 +22,7 @@ allJam = [row1, row2, row3, row4]
 -- a list of all the stuff you have stored in there
 
 getDates :: [Jam] -> [Day]
-getDates = undefined
+getDates xs = map date xs
 -- this should give us back a list of dates when we made jam
 
 findOldest :: [Jam] -> Day
